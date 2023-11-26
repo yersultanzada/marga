@@ -97,7 +97,7 @@ label.error {
 }
 
 .btn-next:hover {
-  background: #f5d77c;
+  background: #60c1aa;
 }
 
 .btn-next span {
@@ -117,7 +117,7 @@ label.error {
 }
 
 .btn-next_active {
-  background: #F2C94C;
+  background: #43ab92;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   color: #333;
@@ -244,10 +244,10 @@ label.error {
 
 .header-line__logo {
   display: block;
-  margin-right: 35px;
-  font-size: 35px;
-  font-weight: 600;
-  color: #F2C94C;
+  margin-right: 15px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #43ab92;
 }
 
 .header-line__title {
@@ -257,7 +257,7 @@ label.error {
 }
 
 .header-line__title span {
-  color: #F2C94C;
+  color: #43ab92;
   font-weight: bold;
 }
 
@@ -274,7 +274,7 @@ label.error {
   bottom: 0;
   max-width: 100%;
   height: 100%;
-  background: #F2C94C;
+  background: #43ab92;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -340,7 +340,7 @@ label.error {
   width: 35px;
   min-width: 35px;
   height: 35px;
-  border: 3px solid #F2C94C;
+  border: 3px solid #43ab92;
   border-radius: 50%;
   font-size: 17px;
   font-weight: bold;
@@ -414,7 +414,7 @@ label.error {
 }
 
 .pick-item:has(.pick-item__input:checked) {
-  border-color: #F2C94C;
+  border-color: #43ab92;
 }
 
 .pick-item__label {
@@ -458,7 +458,7 @@ label.error {
   padding: 19px 0;
   border-radius: 7px;
   border: 0;
-  background: #F2C94C;
+  background: #43ab92;
   font-size: 13px;
   font-weight: bold;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -491,7 +491,7 @@ label.error {
 }
 
 .last-step-form__button:hover {
-  background: #f5d77c;
+  background: #60c1aa;
 }
 
 .last-step-form__accept {
@@ -552,7 +552,7 @@ label.error {
 }
 
 .after-submit__descr a {
-  color: #F2C94C;
+  color: #43ab92;
   text-decoration: underline;
 }
 
