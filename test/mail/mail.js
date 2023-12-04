@@ -3,7 +3,7 @@ $(function() {
 		event.preventDefault();
 
 		// Ссылка, которую получили на этапе публикации приложения
-		let appLink = "https://script.google.com/macros/s/AKfycbzNxPmbYyXCvhlt-P5hYwyEUVnqXnXda0wWpjKMyZtahDInCcpn1b38_wB0X0Ih54rR/exec";
+		let appLink = "https://script.google.com/macros/s/AKfycbzvk9XpdLE8k7MR4u974KtYgPGxDWOygEnQQCsXq8jRxA9Sov2WhiVMdlnDDB2bG9uKSA/exec";
 
 		// Сообщение при успешной отправке данных
 		let successRespond = 'Сообщение успешно отправлено.';
