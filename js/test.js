@@ -3,9 +3,9 @@ $(document).ready(function() {
 	$('input.contact-form__input_tel').mask('+7 (799) 999-99-99');
 
 	var progress = {
-		current: ( 100 / ($('.step-slide').length - 1) ),
+		current: ( 100 / ($('.step-slide').length) ),
 		total: $('.step-slide').length,
-		width: ( 100 / ($('.step-slide').length - 1) ),
+		width: ( 100 / ($('.step-slide').length) ),
 		process: doProgress
 	};
 
