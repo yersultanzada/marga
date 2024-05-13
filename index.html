@@ -13,6 +13,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="libs/fw/style.page2.css">
 	<link rel="stylesheet" href="libs/blueimp-gallery/css/blueimp-gallery.min.css">
 	<link rel="stylesheet" type="text/css" href="css/project.min.css">
 	<link rel="stylesheet" type="text/css" href="css/video.min.css">
@@ -302,7 +303,7 @@
 											<div class="last-step-form">
 												<label class="last-step-form__label">Аты-жөніңізді және нөміріңізді енгізіңіз, менеджеріміз сізге қайта қоңырау шалып, WhatsApp-қа опцияларды жібереді.</label>
 												<input class="last-step-form__input contact-form__input_name" type="text" name="Имя" placeholder="Атыңызды енгізіңіз *" required="required">
-												<input class="last-step-form__input contact-form__input_tel" type="tel" name="Телефон" placeholder="Нөміріңізді енгізіңіз *" required="required">
+												<input class="last-step-form__input contact-form__input_tel tel" type="tel" name="Телефон" placeholder="Нөміріңізді енгізіңіз *" required="required">
 												<div class="contact-form__preloader"></div>
 												<fieldset class="contact-form__input-wrapper contact-form__input-wrapper_hidden">
 													<label for="honeypot">Помогает бороться со спамом. Должно быть пустым!</label>
@@ -327,6 +328,94 @@
 			</div>
 		</div>
 	</div>
+	<!-- Fortune Wheel -->
+	<div class="widget widget-wrap">
+		<a href="#" target="_blank" class="widget-about">хочу такой виджет</a>
+		<div class="widget-l">
+			<div class="widget-wheel-wrap">
+				<div class="widget-wheel-center"></div>
+				<div class="widget-wheel-arrow"></div>
+				<div class="widget-wheel widget-wheel-wait">
+					<div class="widget-wheel-inner">
+						<div class="widget-wheel-part">
+							<div class="widget-wheel-slice-1">
+                                  <span class="widget-wheel-text widget-wheel-text-1">
+                                      <span>Скидка 20%</span>
+                                  </span>
+							</div>
+							<div class="widget-wheel-slice-2">
+                                  <span class="widget-wheel-text widget-wheel-text-2">
+                                      <span>IPhone 15 Pro</span>
+                                  </span>
+							</div>
+							<div class="widget-wheel-slice-3">
+                                  <span class="widget-wheel-text widget-wheel-text-3">
+                                      <span>Стайлер Dyson</span>
+                                  </span>
+							</div>
+							<div class="widget-wheel-slice-4">
+                                  <span class="widget-wheel-text widget-wheel-text-4">
+                                      <span>Sony Playstation 5</span>
+                                  </span>
+							</div>
+						</div>
+						<div class="widget-wheel-part">
+							<div class="widget-wheel-slice-5">
+                                  <span class="widget-wheel-text widget-wheel-text-5">
+                                      <span>Скидка -50000тг</span>
+                                  </span>
+							</div>
+							<div class="widget-wheel-slice-6">
+                                  <span class="widget-wheel-text widget-wheel-text-6">
+                                      <span>Сертификат в Marwin на 30к</span>
+                                  </span>
+							</div>
+							<div class="widget-wheel-slice-7">
+                                  <span class="widget-wheel-text widget-wheel-text-7">
+                                      <span>Apple Watch 8</span>
+                                  </span>
+							</div>
+							<div class="widget-wheel-slice-8">
+                                  <span class="widget-wheel-text widget-wheel-text-8">
+                                      <span>Air Pods Pro 2</span>
+                                  </span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="widget-r">
+			<form class="contact-form-wheel" id="contactFormWheel" method="POST">
+				<div>
+					<div class="widget-page widget-page-1">
+						<div class="widget-head">Крутите<br>колесо!</div>
+						<div class="widget-desc">Введите свой номер телефона,<br>чтобы выиграть приз!</div>
+						<div class="widget-text">
+							<input type="tel" class="widget-text-input widget-text-input-phone tel" placeholder="Введите номер телефона" name="Телефон" required="required">
+						</div>
+						<div class="widget-btns">
+							<button type="submit" class="widget-btn widget-btn-1">Крутить!</button>
+						</div>
+						<div class="widget-conf">Нажимая на кнопку, вы даете согласие на обработку своих персональных данных и соглашаетесь с Политикой конфиденциальности</div>
+					</div>
+					<div class="widget-page widget-page-2">
+						<div class="widget-loader"><div></div><div></div><div></div><div></div></div>
+					</div>
+					<div class="widget-page widget-page-3">
+						<div class="widget-head">Вы получили бонус!</div>
+						<div class="widget-desc">Поздравляем! Не пропустите звонок, мы скоро свяжемся с Вами!</div>
+						<div class="widget-btns">
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+		<a href="#" class="widget-close"></a>
+	</div>
+	<div class="widget-activator">
+		<img src="img/gift.svg" width="80" alt="">
+	</div>
 	<!-- Blueimp gallery -->
 	<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls text-white">
 		<div class="slides"></div>
@@ -337,6 +426,18 @@
 		<a class="play-pause"></a>
 		<ol class="indicator"></ol>
 	</div>
+	<div class="video-widget" data-state="default">
+		<div class="video-widget__container">
+			<video id="video-widget__video" loop="" autoplay="" playsinline="" preload="auto" muted="muted" controlslist="nodownload" disablepictureinpicture="" class="video-widget__video" src="img/video.mp4">
+				<source src="img/video.mp4" type="video/mp4">
+			</video>
+			<div class="video-widget__close"></div>
+			<div class="video-widget__hand">
+				<img src="img/video-hand.png" alt="">
+				<span></span>
+			</div>
+		</div>
+	</div>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -345,10 +446,13 @@
 	<script src="js/video.min.js"></script>
 	<script src="libs/test/jquery.bxslider.min.js"></script>
 	<script src="libs/test/jquery.maskedinput.min.js"></script>
-	<script src="libs/test/is.mobile.js" async></script>
-	<script src="libs/test/jquery.form.js" async></script>
 	<script src="js/test.js"></script>
 	<script src="mail/mail.js"></script>
+	<script src="libs/test/is.mobile.js" async></script>
+	<script src="libs/test/jquery.form.js" async></script>
+	<script src="js/fw/main.js" async></script>
+	<script src="js/fw/mask.js"></script>
+	<script src="mail/fw/mail.js" async></script>
 	<script>
 		var swiper = new Swiper(".mySwiper", {
 			slidesPerView: 2,
@@ -377,15 +481,4 @@
 	</script>
 </body>
 </html>
-<div class="video-widget" data-state="default">
-	<div class="video-widget__container">
-		<video id="video-widget__video" loop="" autoplay="" playsinline="" preload="auto" muted="muted" controlslist="nodownload" disablepictureinpicture="" class="video-widget__video" src="img/video.mp4">
-			<source src="img/video.mp4" type="video/mp4">
-		</video>
-		<div class="video-widget__close"></div>
-		<div class="video-widget__hand">
-			<img src="img/video-hand.png" alt="">
-			<span></span>
-		</div>
-	</div>
-</div>
+
