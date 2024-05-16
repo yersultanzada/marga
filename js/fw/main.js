@@ -6,9 +6,7 @@ $(document).ready(function () {
     }, 1000);
     var widget = $('.widget');
     $('.widget-activator').click(function () {
-        widget.css({
-            'display':'block'
-        });
+        widget.addClass('active');
         widget.removeClass('slide-out');
         widget.addClass('slide-in');
         $('body').addClass('js-no-scroll')
@@ -16,11 +14,9 @@ $(document).ready(function () {
     $('.widget-close').click(function () {
         widget.removeClass('slide-in');
         widget.addClass('slide-out');
-        $('body').removeClass('js-no-scroll')
+        $('body').removeClass('js-no-scroll');
         setTimeout(function() {
-            widget.css({
-                'display':'none'
-            })
+            widget.removeClass('active');
         }, 500);
     })
 })

@@ -34,14 +34,14 @@
 </head>
 <body>
 <!-- ONE-STEP START -->
-<div class="step-slide last_slide">
+<div class="step-slide last_slide" style="padding: 20px">
     <!-- AFTER SUBMIT START -->
     <div class="after-submit">
         <div class="container">
-            <h4 class="after-submit__title">Өтініш жіберілді</h4>
-            <h5 class="after-submit__descr">Біздің менеджер сізге қайта қоңырау шалып, ас үйіңіздің құнын хабарлайды және кез келген сұрақтарға жауап береді.</h5>
+            <h4 class="after-submit__title">Заявка отправлена</h4>
+            <h5 class="after-submit__descr">Наш менеджер перезвонит Вам и огласит примерную стоимость кухни и ответит на любые вопросы.</h5>
             <div class="_center text-center mb-4">
-                <a href="/" class="btn btn-primary" style="margin-top: 0">басты бетке</a>
+                <a href="/" class="btn btn-primary" style="margin-top: 0">на главную</a>
             </div>
         </div>
     </div>

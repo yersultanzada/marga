@@ -134,7 +134,7 @@
 }
 .widget-head {
     font-weight: 800;
-    font-size: 46px;
+    font-size: 38px;
     line-height: 1em;
 }
 .widget-desc {
@@ -147,8 +147,6 @@
 .widget-text input {
     width: 100%;
     max-width: 100%;
-    height: 50px;
-    border: 0;
     padding-left: 15px;
     outline: 0;
     background: 0 0;
@@ -373,7 +371,7 @@
     top: 40%;
     background: #fff;
     border-radius: 1000px;
-    z-index: 100;
+    z-index: 1000 !important;
     box-shadow: -1px 1px 7px #888;
 }
 .widget-wheel-arrow {
@@ -389,7 +387,7 @@
     top: 0;
     bottom: 0;
     margin: auto;
-    z-index: 100;
+    z-index: 1000 !important;
 }
 .widget-wheel {
     width: 100%;
@@ -401,6 +399,7 @@
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
     transform: rotate(-22.5deg);
+    z-index: 10;
 }
 .widget-wheel-wrap * {
     box-sizing: border-box;
@@ -670,41 +669,44 @@
     .widget {
         display: none;
         left: 0;
-        transform: translateY(100%);
+        top: auto;
+        bottom: -100%;
+    }
+    .widget.active {
+        display: block;
     }
     .widget-wrap {
-        top: auto !important;
         max-width: 100%;
-        height: 90vh !important;
+        height: 90%;
     }
     @-webkit-keyframes slide-in {
         100% {
-            transform: translateY(0%);
+            bottom: 0;
         }
     }
 
     @keyframes slide-in {
         100% {
-            transform: translateY(0%);
+            bottom: 0;
         }
     }
     @-webkit-keyframes slide-out {
         0% {
-            transform: translateY(0%);
+            bottom: 0;
         }
         100% {
             left: 0;
-            transform: translateY(100%);
+            bottom: -100%;
         }
     }
 
     @keyframes slide-out {
         0% {
-            transform: translateY(0%);
+            bottom: 0;
         }
         100% {
             left: 0;
-            transform: translateY(100%);
+            bottom: -100%;
         }
     }
     .widget-page-3 {
@@ -716,7 +718,7 @@
 }
 @media (max-width:620px) {
     .widget-l {
-        top: 30px;
+        top: 20px;
         align-items: flex-start;
     }
     .widget-r {
@@ -733,13 +735,22 @@
         width: 320px;
         height: 320px;
     }
-    .widget-wheel-center {
-        z-index: 500;
+    .widget-head {
+        font-size: 24px;
     }
-    .widget-wheel-arrow {
-        z-index: 500;
+    .widget-desc {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-top: 15px;
     }
     .widget-wheel-text span {
         font-size: 12px;
+    }
+    .widget-btn {
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+    .widget-text input {
+        height: 54px;
     }
 }

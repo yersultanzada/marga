@@ -20,7 +20,7 @@ $(document).ready(function() {
 		touchEnabled: false,
 		pager: false,
 		nextSelector: '.btn-next-container',
-		nextText: '<div class="btn-next"><span>келесі сұрақ</span></div>',
+		nextText: '<div class="btn-next"><span>на следующий шаг</span></div>',
 		onSliderLoad: function (currentIndex) {
 			// первоначальные стили
 			$('.main-progress__text').eq(currentIndex).addClass('main-progress__text_active');

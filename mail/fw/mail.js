@@ -18,7 +18,7 @@ $(function() {
 	})
 	$(".contact-form-wheel").submit(function (event) {
 		event.preventDefault();
-		var bonus = [1,2,8]
+		var bonus = [1,5]
 		var t = bonus[Math.floor(Math.random() * bonus.length)];
 		// Ссылка, которую получили на этапе публикации приложения
 		let appLink = "https://script.google.com/macros/s/AKfycbw8Hnalz4LTsIOd6mB8xRM81itTuYcOGjc0uLwrAjw6PHx-ZEg8krwnlOlRSIYIu98/exec";
