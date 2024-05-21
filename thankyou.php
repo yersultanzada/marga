@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-    <title>Квиз-лендинг</title>
+    <title>Самые честные цены на кухонные гарнитуры в Алматы</title>
     <meta name="description" content="">
     <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="expires" content="0">

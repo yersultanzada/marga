@@ -21,7 +21,7 @@ $(function() {
 		var bonus = [1,5]
 		var t = bonus[Math.floor(Math.random() * bonus.length)];
 		// Ссылка, которую получили на этапе публикации приложения
-		let appLink = "https://script.google.com/macros/s/AKfycbw8Hnalz4LTsIOd6mB8xRM81itTuYcOGjc0uLwrAjw6PHx-ZEg8krwnlOlRSIYIu98/exec";
+		let appLink = "https://script.google.com/macros/s/AKfycby3PDUPDny-EJk-uPx0f9Bl_OlySCEMwUnwTGCMQTf0XrnwUq3z2LuLrvJoAbbyFx0GvA/exec";
 
 		// Создаем или обновляем скрытое поле для .widget-head
 		var updatedWidgetHeadValue = $(".widget-wheel-text-" + t + " span").text();

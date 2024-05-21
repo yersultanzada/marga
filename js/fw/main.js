@@ -3,7 +3,7 @@ $(document).ready(function () {
         $('.widget-activator').css({
             'display':'block'
         })
-    }, 1000);
+    }, 40000);
     var widget = $('.widget');
     $('.widget-activator').click(function () {
         widget.addClass('active');
